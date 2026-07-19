@@ -266,6 +266,7 @@ Once tunneled, navigate your browser interface locally to `http://127.0.0.1:5002
 
 The Arduino UNO Q works by leveraging an intelligent separation of powers between its co-processors, linked seamlessly via the internal **Arduino RouterBridge**.
 
+
 ```text
  ┌────────────────────────────────────────────────────────┐
  │ 1. DUAL-BRAIN INTERPROCESSOR IPC ROUTING (Bridge RPC)  │
