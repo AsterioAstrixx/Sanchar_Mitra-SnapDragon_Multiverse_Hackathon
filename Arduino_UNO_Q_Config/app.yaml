@@ -1,0 +1,6 @@
+name: Sanchar Mitra
+description: Voice and text LED matrix display app for Arduino Uno Q.
+ports:
+- 5002
+bricks: []
+icon: 💡
