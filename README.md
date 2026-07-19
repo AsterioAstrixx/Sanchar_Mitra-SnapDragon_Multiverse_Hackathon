@@ -206,7 +206,8 @@ To eliminate single-frame prediction noise, the architecture applies a dual-laye
 
 * **Confidence Ceiling:** The array is skipped if the vector confidence model doesn't hit a preset ceiling limit (`--min-confidence 0.20`).
 * **Frame Stability Tracking:** The system relies on consecutive character tracking metrics (`CONFIRM_FRAMES = 2`). A token must be securely evaluated two times sequentially before the data loop confirms it, appends it to the active sentence array, and writes it back to the Arduino edge node matrix.
-* <img src="Images/1.jpeg" alt="Sanchaar Mitra Header Banner" width="100%"/>
+*
+
 
 ```
 
